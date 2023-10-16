@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 .nav{
+    position: sticky;
+    top: 0px;
+    background-color: #f4fdff;
     font-family: 'Lato', monospace;
     color: #555;
     display: flex;
