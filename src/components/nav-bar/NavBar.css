@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 .nav{
+    font-family: 'Lato', monospace;
     color: #555;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
     padding: 1rem 2rem;
-    font-weight: bold;
-    background-color: #E5E5E5;
 }
 
 .nav ul{
@@ -25,7 +24,7 @@
 }
 
 .site-title{
-    font-family: 'Lato', monospace;
+    font-weight: bold;
     font-size: 2rem;
     color: #ff3333;
     transition: color 0.3s;
@@ -41,6 +40,7 @@
 
 .nav-btn{
     color: inherit;
+    font-weight: bold;
     transition: color 0.3s;
     border-bottom: 2px solid transparent;
     padding-bottom: 4px;
