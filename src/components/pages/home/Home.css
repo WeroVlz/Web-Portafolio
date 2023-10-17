@@ -2,23 +2,24 @@
 
 .home-container{
     font-family: 'Lato', monospace;
-    background-color: #ff3333;
+    background-color: #d1d1d1;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 5% 10%;
     width: 100%;
-    height: 100%;
+    height: 90%;
+    min-height: 550px;
 }
 
 .plain-text{
-    color: #f4fdff;
+    color: #333;
     font-size: 25px;
 }
 
 .name-text{
-    color: #333;
+    color: #ff3333;
     font-size: 80px;
     font-weight: bold;
 }
@@ -26,14 +27,14 @@
 .description-text{
     line-height: 1.8;
     color: #333;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .home-btn{
     font-weight: bold;
     text-decoration: none;
-    color: #f4fdff;
-    border: 2px solid #f4fdff;
+    color: #ff3333;
+    border: 2px solid #ff3333;
     border-radius: 5px;
     padding: 15px;
     width: fit-content;
@@ -42,8 +43,8 @@
 }
 
 .home-btn:hover{
-    background-color: #f4fdff;
-    color: #ff3333;
+    background-color: #ff3333;
+    color: #f4fdff;
     font-weight: bold;
 }
 
