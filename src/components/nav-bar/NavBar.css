@@ -55,7 +55,13 @@
     transition: border-bottom 0.3s;
 }
 
+.nav .menu-icon{
+    display: none;
+}
 
+.nav .close-icon{
+    color: #f4fdff;
+}
 
 .nav-btn:hover{
     color: black;
@@ -84,3 +90,33 @@
     color: #f4fdff;
     background-color: #b30000;
 }
+
+@media screen and (max-width:40em){
+    .nav .menu-icon{
+        display: flex;
+        color: black;
+    }
+
+    .nav ul{
+        margin: 0;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        flex-direction: column;
+        align-content: center;
+        padding: 10% 10px;
+        min-width: 50%;
+        background-color: #555;
+        transform: translate(100%, 0);
+        z-index: 11;
+    }
+
+    .nav ul.opened{
+        transform: translate(0%, 0);
+    }
+
+    .nav-btn{
+        color: #f4fdff;
+    }
+}   
