@@ -1,24 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato');
 
 .nav{
-    background-color: lightgray;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(211,211,211);
     font-family: 'Lato', monospace;
     color: #555;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 1rem 2rem;
+    padding: 0 20px;
     border-bottom: 1px solid #acacac;
 }
 
 .nav ul{
     padding: 0;
-    margin: 0;
     list-style: none;
     display: flex;
+    flex-direction: row;
     gap: 3rem;
-    height: 27px;
+    height: 25px;
 }
 
 .nav a{
@@ -32,7 +35,6 @@
     font-size: 2rem;
     color: #ff3333;
     transition: color 0.3s;
-
 }
 
 
