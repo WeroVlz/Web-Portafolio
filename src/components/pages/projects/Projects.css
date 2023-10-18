@@ -1,18 +1,30 @@
-
 .project-container{
     width: 100%;
     height: 100%;
-    background-color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-container h1 {
+    margin: 0;
+    padding: 0;
 }
 
 .side-bar{
     height: 100%;
     width: 20%;
-    background-color: lightgray;
+    background-color: rgb(223, 223, 223);
     border-right: 1px solid #acacac;
 }
 
-h1 {
+.project-carousel{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    gap: 4rem;
     margin: 0;
-    padding: 0;
+    padding: 0 3rem;
+    align-items: center;
 }

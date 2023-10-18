@@ -1,10 +1,13 @@
 import './PhotoCard.css'
-import Edgar from "../../../../assets/edgar.jpg"
 
-export default function PhotoCard(){
+export default function PhotoCard({data}){
+
+    const{image, name} = data;
+
     return(
         <div className="photo-card">
-            <img src={Edgar}></img>
+            <img src={image}></img>
+            <h1 className='name'>{name}</h1>
         </div>
     )
 }
