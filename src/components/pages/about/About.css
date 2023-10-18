@@ -5,3 +5,10 @@
     gap: 3rem;
     margin: 40px 10%;
 }
+
+@media screen and (max-width:70em) {
+    .about-container{
+        flex-direction: column;
+        margin:  40px 0;
+    }
+}

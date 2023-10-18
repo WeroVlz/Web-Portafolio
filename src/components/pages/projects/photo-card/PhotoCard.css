@@ -29,3 +29,20 @@
 .photo-card img:active{
     box-shadow: 0 0 60px rgba(0, 0, 0,0.5);
 }
+
+@media screen and (max-width:40em){
+    .photo-card{
+        width: 50%;
+        height: 100%;
+    }
+
+    .photo-card img{
+        height: 75%;
+        width: 30%;
+        aspect-ratio: 1/1;
+    }
+
+    .photo-card .name{
+        display: none;
+    }
+}

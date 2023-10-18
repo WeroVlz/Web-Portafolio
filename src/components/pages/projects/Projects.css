@@ -29,3 +29,17 @@
     padding: 0 3rem;
     align-items: center;
 }
+
+@media screen and (max-width: 40em){
+    .project-container{
+        flex-direction: column;
+    }
+
+    .side-bar{
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

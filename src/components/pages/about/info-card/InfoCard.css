@@ -11,6 +11,8 @@
     border-radius: 7px;
     display: flex;
     flex-direction: column;
+    align-self: center;
+    justify-content: center;
 }
 
 .info-card .info-photo{
@@ -88,8 +90,19 @@
     justify-content: center;
     margin: 7rem 0 2rem 0;
     gap: 0.5rem;
+    z-index: -1;
 }
 
 .icon-style{
     color: #333;
+}
+
+@media screen and (max-width:70em){
+    .info-card{
+        width: 80vw;
+    }
+
+    .info-card .info-name{
+        font-size: 25px;
+    }
 }

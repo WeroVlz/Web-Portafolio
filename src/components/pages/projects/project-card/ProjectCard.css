@@ -3,13 +3,18 @@
     padding: 0;
 }
 
+.project-info h1{
+    margin: 0;
+    padding: 0;
+}
+
 .project-card{
     float: left;
     display: flex;
     flex-direction: column;
     font-family: 'Lato', monospace;
-    width: 30%;
-    min-width: 30%;
+    width: 425px;
+    min-width: 425px;
     height: 80%;
     background-image: linear-gradient(to right, rgb(197, 197, 197), rgb(141, 141, 141));
     border-radius: 10px;
@@ -23,17 +28,23 @@
 }
 
 .project-info{
-    width: 85%;
+    box-sizing: border-box;
+    width: 100%;
     height: 55%;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 1rem;
 }
 
 .project-name{
     display: flex;
     flex-direction: row;
     font-size: 12px;
+    padding: 0;
+    margin: 0;
     justify-content: space-between;
-    margin-top: 1.5rem;
 
 }
 
@@ -51,9 +62,8 @@
     color: #444;
     font-weight: bold;
     width: 100%;
-    gap: 1.5rem;
-    margin-top: 3rem;
-
+    gap: 0.5rem;
+    overflow: hidden;
     text-align: justify;
 }
 
@@ -63,5 +73,14 @@
 
 }
 
+.project-description{
+    font-size: smaller;
+}
+
+@media (min-width: 524){
+    .project-name{
+        font-size: 6px;
+    }
+}
 
 
