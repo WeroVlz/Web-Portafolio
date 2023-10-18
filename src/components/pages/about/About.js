@@ -24,7 +24,7 @@ const carlos = {
     major: "Digital Animation Engineering",
     description: "I study Digital Animation Engineer at Universidad Panamericana because of the love of art. My hobbies are videogames, series, drawing, and hanging out with friends.",
     github: "",
-    instagram: "",
+    instagram: "https://www.instagram.com/carlos0223996/",
     linkedin: "",
     twitter: ""
 }

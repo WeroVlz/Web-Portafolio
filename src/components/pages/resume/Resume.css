@@ -1,0 +1,16 @@
+.cv-container{
+    display: flex;
+    flex-direction: row;
+    height: 110vh;
+    padding: 0 50px 50px 50px;
+    gap: 5rem;
+}
+
+.cv-container img {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    box-shadow: 0 0 40px rgba(0, 0, 0,0.5);
+}

@@ -4,7 +4,7 @@ import Home from './components/pages/home/Home';
 import About from './components/pages/about/About';
 import Projects from './components/pages/Projects';
 import Gallery from './components/pages/Gallery';
-import Resume from './components/pages/Resume';
+import Resume from './components/pages/resume/Resume';
 import {Route, Routes} from "react-router-dom"
 
 function App() {
